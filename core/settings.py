@@ -46,7 +46,8 @@ MIDDLEWARE = [
 SITE_ID = 1
 
 CORS_ORIGIN_WHITELIST = [
-    "https://notes-backend-iota-rosy.vercel.app"
+    "https://notes-backend-iota-rosy.vercel.app",
+    "https://notes-frontend-pulats-projects.vercel.app"
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -54,7 +55,8 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 CSRF_ALLOWED_ORIGINS = [
-    "https://notes-backend-iota-rosy.vercel.app"
+    "https://notes-backend-iota-rosy.vercel.app",
+    "https://notes-frontend-pulats-projects.vercel.app"
 ]
 
 
